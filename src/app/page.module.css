@@ -1,0 +1,87 @@
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background);
+}
+
+.form {
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: var(--box);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+}
+
+.loginTitle {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--text);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formInputs {
+    margin-top: 10px;
+}
+
+.field {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.input, .password {
+    height: 100%;
+    width: 100%;
+    padding: 0 12px;
+    font-size: 16px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: var(--inputs);
+    color: var(--text);
+    outline: none;
+}
+
+.input::placeholder, .password::placeholder {
+    color: var(--placeholder);
+}
+
+.input:focus, .password:focus {
+    border-color: var(--details);
+    box-shadow: 0 0 0 1px var(--details);
+}
+
+.togglePassword {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: var(--placeholder);
+}
+
+.loginButton {
+    height: 100%;
+    width: 100%;
+    margin-top: 15px;
+    background-color: var(--highlights);
+    color: var(--text);
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.loginButton:hover {
+    background-color: var(--highlightsHover);
+}
+
+.loginButton:active {
+    transform: scale(0.98);
+}
