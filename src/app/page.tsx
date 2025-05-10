@@ -1,15 +1,9 @@
-<<<<<<< HEAD
 import Image from "next/image";
 import styles from "./page.module.css";
 import { useState } from 'react';
 import { supabase } from '../supabase/supabaseClient';
-=======
 "use client"
-
-import { useState } from "react"
-import styles from "./page.module.css"
 import { Eye, EyeOff } from "lucide-react"
->>>>>>> origin/master
 
 export default function Home() {
     const [showPassword, setShowPassword] = useState(false)
