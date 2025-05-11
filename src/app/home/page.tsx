@@ -103,7 +103,6 @@ export default function Home() {
     return (
         <main className={styles.main}>
             <div className={styles.sidebar}>
-                <h2 className={styles.filterTitle}>Filtrar por</h2>
                 <div className={styles.filterSection}>
                     <h3 className={styles.subTitle}>Categorias</h3>
                     {categories.map((category) => (

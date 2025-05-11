@@ -49,15 +49,10 @@
     box-shadow: 0 0 0 1px var(--details);
 }
 
-.filterTitle {
-    font-size: 28px;
-    padding-bottom: 0.6rem;
-    color: var(--details);
-}
-
 .subTitle {
     font-size: 22px;
     padding-bottom: 0.4rem;
+    color: var(--details);
 }
 
 .card {
