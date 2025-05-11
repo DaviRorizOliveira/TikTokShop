@@ -4,8 +4,6 @@ import { useState } from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
 
-import banner from "../../../../public/images/banner.jpg";
-
 const categories = ["Todos", "Eletrônicos", "Beleza", "Moda", "Livros", "Casa", "Esportes"];
 
 const products = [

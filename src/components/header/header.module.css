@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--box);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text);
+    gap: 0.8rem;
+}
+
+.userName {
+    white-space: nowrap;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    color: var(--text);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
