@@ -1,7 +1,8 @@
-"use client"
-
-import { useState } from "react"
-import styles from "./page.module.css"
+"use client";
+import Image from "next/image";
+import styles from "./page.module.css";
+import { useState } from 'react';
+import { supabase } from '../supabase/supabaseClient';
 import { Eye, EyeOff } from "lucide-react"
 
 export default function Home() {
