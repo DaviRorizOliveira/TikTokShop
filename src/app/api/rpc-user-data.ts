@@ -16,4 +16,4 @@ export async function POST(req: NextRequest) {
   } else {
     return NextResponse.json({ data: 'This is STARTER data for user ' + user.email });
   }
-} 
+}
